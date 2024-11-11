@@ -13,6 +13,6 @@ driver = new DriverFactory().IntializeDriver();
     }
     @AfterMethod
     public void TearDown(){
-//driver.quit();
+driver.quit();
     }
 }
